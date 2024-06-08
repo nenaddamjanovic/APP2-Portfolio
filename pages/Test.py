@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(layout="wide")
+
 st.header("Test page")
 st.info("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "
         "industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and "
@@ -8,6 +10,7 @@ st.info("Lorem Ipsum is simply dummy text of the printing and typesetting indust
         "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like "
         "Aldus PageMaker including versions of Lorem Ipsum.")
 
+st.divider()
 st.title("Title test")
 st.write("Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical "
          "Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at "
