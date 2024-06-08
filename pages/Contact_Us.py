@@ -12,3 +12,4 @@ with st.form(key="key_mail_form"):
         message = message + user_email
         print(button)
         print("i was pressed")
+
